@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: start;
+  margin-top: 200px;
+}
+h4 {
+  color: black;
+}
+nav {
+  height: 30px;
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+footer {
+  height: 30px;
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+#formContainer {
+  height: 200px;
+  width: 800px;
+}
+#formElements {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  height: 200px;
+  width: 800px;
+  margin-left: 20px;
+}
+.inputs {
+  height: 30px;
+  width: 400px;
+  border-radius: 4px;
+  border-color: white;
+  padding: 4px;
+}
+#addButton {
+  height: 40px;
+  width: 80px;
+  color: white;
+  background-color: rgb(53, 31, 255);
+}
+.inputs:focus {
+  outline-color: blue;
+}
+#todos {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 4px;
+}
+.todo {
+  width: 400px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#trashIcon {
+  scale: 2;
+}
